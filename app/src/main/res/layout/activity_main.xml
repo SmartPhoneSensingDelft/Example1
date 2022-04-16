@@ -33,7 +33,9 @@
         android:layout_above="@+id/button1"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="34dp"
-        android:ems="10" >
+        android:ems="10"
+        android:hint="@string/type_here"
+        android:minHeight="48dp">
 
         <requestFocus />
     </EditText>
@@ -45,6 +47,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"
-        android:text="Welcom!" />
+        android:text="@string/welcome" />
 
 </RelativeLayout>
